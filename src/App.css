@@ -1,0 +1,10 @@
+*{
+    text-align: center; 
+  }
+  body{
+  background-color: rgb(170, 115, 234);
+  }
+  h2{
+    color: rgb(52, 39, 66);
+    font-family: 'Times New Roman', Times, serif;
+  }
