@@ -13,9 +13,7 @@ class Profile extends React.Component {
  show: true,
  timer: 0,
 };
-componentDidMount() {
-  setInterval(() =>this.state({timer:this.state.timer + 1}), 1000);
-}
+
 
 
 
@@ -39,6 +37,9 @@ componentDidMount() {
      </div>
     )
   }
+  componentDidMount() {
+  setInterval(() =>this.state({timer:this.state.timer + 1}), 1000);
+}
 }
 export default Profile;
  
